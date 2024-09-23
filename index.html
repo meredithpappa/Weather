@@ -20,34 +20,38 @@
           type="search"
           placeholder="Enter a city..."
           required
+          class="search-form-input"
         />
         <input
           type="submit"
           value="Search"
+          class="search-form-button"
         />
       </form>
     </header>
     <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
+      <div class="weather-app-data">
+        <div>
+        <h1 class="weather-app-city">Paris</h1>
+        <p class="weather-app-details">
           Tuesday 14:49, scattered clouds
           <br />
-          Humidity: 66%, Wind: 3.13km/h
+          Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
         </p>
       </div>
-      <div>🌤️ 12°C</div>
-    </main>
+      <div class="weather-app-temperature-container">
+        <div class="weather-app-temperature"></div>
+        <div class="weather-app-icon">🌤️</div>
+        <div class="weather-app-temperature-value">12</div>
+        <div class="weather-app-unit">°C </div>
+      </div>
     </div>
+    </main>
     <footer>
       This project was coded by
-      <a
-        href="https://github.com/meredithpappa"
-        target="_blank"
-      >
-        Meredith Pappa
+      <a href="https://github.com/meredithpappa" target="_blank">Meredith Pappa
       </a>
-      , is
+      ,is
       <a
         href="https://github.com/meredithpappa/Weather-App"
         target="_blank"
