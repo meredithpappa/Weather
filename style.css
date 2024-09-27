@@ -72,6 +72,8 @@ main {
 
 .weather-app-icon {
   font-size: 44px;
+  height: 48px;
+  line-height: 88px;
   margin-top: 22px;
 }
 
@@ -82,7 +84,7 @@ main {
 }
 
 .weather-app-unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 
